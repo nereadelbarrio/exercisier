@@ -22,13 +22,9 @@
 
 				{ name: 'Énfasis-2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 				{ name: 'Énfasis-3', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
-				{ name: 'Énfasis-4', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
-				{ name: 'Énfasis-Ejemplo', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
-				{ name: 'Énfasis-Leer', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
-				{ name: 'Énfasis-Plus', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
-				{ name: 'Énfasis-Paginas', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
 
-				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
+				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
 
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
 				{ name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
@@ -38,15 +34,8 @@
 				{ name: 'Caja Vídeo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
 
 				{ name: 'Icono Critical Thinking', element: 'span', attributes: { 'class': 'icon icon-critical' } },
-				{ name: 'Icono Critical Thinking Gold', element: 'span', attributes: { 'class': 'icon icon-critical-gold' } },
-				{ name: 'Icono Critical Verde', element: 'span', attributes: { 'class': 'icon icon-critical-verde' } },
-				{ name: 'Icono Critical Negro', element: 'span', attributes: { 'class': 'icon icon-critical-negro' } },
-				{ name: 'Icono Video Oscuro', element: 'span', attributes: { 'class': 'icon icon-video-oscuro' } },
-				{ name: 'Icono Bocadillo Blanco', element: 'span', attributes: { 'class': 'icon icon-bocadillo-blanco' } },
 
 				{ name: 'Desplegable 3', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-3' } },
-				{ name: 'Desplegable 4', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-4' } },
-				{ name: 'Desplegable 5', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-5' } }
 			]
 		},
 		slidesTitle: {},
