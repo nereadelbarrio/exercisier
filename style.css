@@ -48,17 +48,6 @@
 }
 
 
-body {
-    font: 400 15px 'Source Sans Pro',sans-serif;
-    line-height: 21px;
-    color: #414141;
-    background-color: #eee;
-}
-
-body{
-	font-family: 'Conv_Roboto-Regular';
-}
-
 b,
 strong {
 	font-weight: bold;
@@ -161,7 +150,7 @@ body {
 	font-size: 1.8rem;
 	font-weight: normal;
 	text-align: left;
-	font-family: Campton;
+	font-family: 'Conv_Roboto-Regular';
 }
 
 .slide-wrapper {
