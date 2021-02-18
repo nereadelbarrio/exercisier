@@ -2,18 +2,14 @@
 	'use strict';
 
 	var exercisierStyle = function () {
-			blink.theme.styles.mcgrawhill.apply(this, arguments);
+			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
 	exercisierStyle.prototype = {
-		parent: blink.theme.styles.mcgrawhill.prototype,
+		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
+		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_exercisier',
-		toolbar: {
-			name: 'exercisier',
-			items: ['Blink_popover']
-		},
-		extraPlugins: ['blink_popover'],
 		ckEditorStyles: {
 			name: 'exercisier',
 			styles: [
