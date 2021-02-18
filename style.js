@@ -10,7 +10,7 @@
 		parent: blink.theme.styles.mcgrawhill.prototype,
 		bodyClassName: 'content_type_clase_exercisier',
 		toolbar: {
-			name: 'editorial',
+			name: 'exercisier',
 			items: ['Blink_popover']
 		},
 		extraPlugins: ['blink_popover'],
