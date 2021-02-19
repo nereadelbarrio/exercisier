@@ -106,7 +106,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 }
 
 #indice .units ul li a .title {
-	padding: 10px;
+	padding: 5px;
 	-moz-transition: margin-left 0.2s ease-in-out;
 	-webkit-transition: margin-left 0.2s ease-in-out;
 	transition: margin-left 0.2s ease-in-out;
@@ -120,7 +120,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 
 #indice .units ul li a:not(.delete) {
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 
 /**/
