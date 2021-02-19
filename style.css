@@ -885,7 +885,7 @@ body:not(.edit) .back .bck-flipbox-title,
 #actividad .content .texto_curso .bck-ol-3 li,
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
-	counter-increment: bck-li-counter;
+	content: counter(bck-li-counter, lower-alpha)" ";
     padding-left: 0px;
     position: relative;
     z-index: 0;
