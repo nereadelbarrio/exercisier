@@ -60,72 +60,110 @@ body {
 
 /* TOC */
 #indice .units ul li {
-	background: #FFF;
+	background: #1690b5;
 	opacity: 1;
 	-moz-transition: opacity 0.3s ease-in-out;
 	-webkit-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	-moz-box-shadow: 3px 5px 5px #00000036;
-	-webkit-box-shadow: 3px 5px 5px #00000036;
-	box-shadow: 3px 5px 5px #00000036;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: none;
 	margin-bottom: 11px;
 }
 
-#indice .units ul li.active:not(.disabled) {
-	background: var(--colorppal);
+#indice .units ul li.active:not(.disabled){
+	background: #fff;
 }
 
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
- #indice .units ul li:focus:not(.disabled) {
-	background: var(--colortrans);
-}
-body #indice .units ul li.active:hover:not(.disabled) {
-	background: var(--colorppal);
-	color: #FFF;
+ #indice .units ul li:hover:not(.disabled){
+	background: #fff;
 }
 
-#indice .units ul li a:not(.delete) {
-	padding: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	border-radius: 0;
+#indice .units ul li:focus:not(.disabled){
+	background: #fff;
 }
+
+#indice .units ul li.hover:not(.disabled), 
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+#indice .units ul li:hover:not(.disabled){
+	background: #fff;
+}
+
+#indice .units ul li:not(.add) a .title{
+	font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #fff;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1690b5;
+        margin-left: 20px;
+}
+
 #indice .units ul li a .title {
-	padding: 14px 16px;
-	color: var(--colorppal);
+	padding: 10px;
 	-moz-transition: margin-left 0.2s ease-in-out;
 	-webkit-transition: margin-left 0.2s ease-in-out;
 	transition: margin-left 0.2s ease-in-out;
 }
-body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title {
-	color: var(--colorppal);
-	margin-left: 30px;
-}
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a:hover .title {
-	margin-left: 30px;
-}
 
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-	margin-left: 30px;
-	color: #fff;
-}
+/**/
+
+
+
+
+
+
+
 
 #indice .unit-content .header.default {
-	background: var(--colorppal) !important;
+	background: transparent;
+	height: 101px;
 }
 #indice a:hover,
 #indice a:active,
 #indice a:focus {
-	color: var(--colorppal);
+	color: #1690b5;
 }
 #indice .btn-primary {
-    color: var(--colorppal);
+    color: #1690b5;
+    color: #ffffff;
+    background-color: #1690b5;
+    border: none;
 }
 #indice .actividades a:hover {
-    color: var(--colorppal);
+    color: #1690b5;
+
+}
+
+#indice .unit-content .header.default{
+	background-image: url(../themes/responsive/images/libro/verde.png);
+}
+
+#indice .unit-content .header .title {
+    color: #1690b5;
+    background: transparent;
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    padding: 5px 20px;
+    height: 88px;
+    margin: 5px 140px 20px 8px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
 }
 /*--*/
 
