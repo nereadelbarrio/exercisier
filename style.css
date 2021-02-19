@@ -885,7 +885,7 @@ body:not(.edit) .back .bck-flipbox-title,
 #actividad .content .texto_curso .bck-ol-3 li,
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
-	content: counter(bck-li-counter, lower-alpha)" ";
+	counter-increment: bck-li-counter;
     padding-left: 0px;
     position: relative;
     z-index: 0;
@@ -1411,7 +1411,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     box-shadow: 1px 2px 2px #1690b552;
 }
 #actividad .content .review .attemps span {
-    background-color: #0b83a8;
+    background-color: #1a73e9;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
