@@ -1076,8 +1076,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 /*Rellenar espacios*/
 .slide_main input {
-    color: #1a73e9;
-    border-bottom: 2px solid;
+    color: #555;
+    border-bottom: 2px solid #1690b5;
     border-radius: 0;
 }
 .fillblanks-draggable-wrapper .response {
@@ -1375,18 +1375,16 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 	box-shadow: 0px 3px 7px #b6b6b636;
 }
 
-.btn-danger,.btn-danger[disabled] {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+.btn-danger,
+.btn-danger[disabled] {
+	color: #fff;
+	border-color: transparent;
     border-radius: 25px;
-    border: 2px solid #1A73E9;
-    color: #fff;
-    background: #1A73E9;
-	font-weight: 700;
-	-moz-box-shadow: 0px 3px 7px #00000036;
-	-webkit-box-shadow: 0px 3px 7px #00000036;
-	box-shadow: 0px 3px 7px #00000036;
+    background-color: #fc4237;
+    border:none;
+
 }
+
 .btn-danger:hover,
  .btn-danger:focus,
   .btn-danger:active,
@@ -1413,7 +1411,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     box-shadow: 1px 2px 2px #1690b552;
 }
 #actividad .content .review .attemps span {
-    background-color: #1a73e9;
+    background-color: #0b83a8;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
