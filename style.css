@@ -1339,6 +1339,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 	color: #fff;
 	border-color: transparent;
     border-radius: 25px;
+    background-color: #fc4237;
+    border:none;
 
 }
 
@@ -1351,11 +1353,11 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     -webkit-border-radius: 25px;
 	border-radius: 25px;
 	font-weight: 700;
-	border: 2px solid #FFF;
-    color: #1A73E9;
+	border: none;
+    color: #555555;
 	-moz-box-shadow: 0px 3px 7px #00000036;
 	-webkit-box-shadow: 0px 3px 7px #00000036;
-	box-shadow: 0px 3px 7px #00000036;
+	box-shadow: 0px 3px 7px #b6b6b636;
 }
 
 .btn-danger,.btn-danger[disabled] {
@@ -1375,12 +1377,12 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
   .btn-danger:active,
    .btn-danger.active,
     .open .dropdown-toggle.btn-danger {
-    color: #1A73E9;
-    background-color: #FFF;
-    border-color: #1A73E9;
+    color: #fff;
+    background-color: #1690b5;
+    border-color: none;
     -moz-box-shadow: 0 4px 7px #1a73e95e;
     -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
+    box-shadow: none;
 }
 
 .btn-primary.active,
@@ -1390,10 +1392,10 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .open .dropdown-toggle.btn-primary {
 	background-color: #FFF;
     border-color: #1A73E9;
-    color: #1A73E9;
+    color: #1690b5;
     -moz-box-shadow: 0 4px 7px #1a73e95e;
     -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
+    box-shadow: 1px 2px 2px #1690b552;
 }
 #actividad .content .review .attemps span {
     background-color: #1a73e9;
