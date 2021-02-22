@@ -23,6 +23,7 @@
 				{ name: 'Enfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 
 				{ name: 'Icono Estrella', element: 'span', attributes: { 'class': 'icon icon-estrella' } },
+				{ name: 'Icono Reperage', element: 'span', attributes: { 'class': 'icon icon-reperage' } },
 
 				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
 				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
