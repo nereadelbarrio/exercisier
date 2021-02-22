@@ -1462,8 +1462,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 /**Iconos**/
 .item-container .icon:before {
 	vertical-align: middle;
-    height: 25PX;
-    width: 12PX;
+
 }
 
 .item-container .icon-estrella:before {
@@ -1474,6 +1473,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     FONT-SIZE: 1.3REM;
     color: #1690b5;
     margin-top: -6px;
+        height: 25PX;
+    width: 12PX;
 }
 
 .icon-reperage:before {
