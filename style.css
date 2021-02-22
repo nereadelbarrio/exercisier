@@ -406,7 +406,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	z-index: 100;
 	width: 100%;
 	height: 50px;
-	background: var(--colorppal);
+	background: #555;
     border-bottom: 0;
     border-top: 4px solid #555;
 	
@@ -865,11 +865,12 @@ body:not(.edit) .back .bck-flipbox-title,
     position: absolute;
     color: #007DA4;
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     margin-top: 0;
     text-align: center;
     left: -20px;
     width: 29px;
+    font-family: 'Conv_Roboto-Bold';
 }
 
 /*LISTA ORDENADA 3*/
@@ -900,10 +901,11 @@ body:not(.edit) .back .bck-flipbox-title,
     width: 20px;
     text-align: right;
     color: #007da4;
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 400;
     content: counter(bck-li-counter) ".";
     margin-left: -10px;
+    font-family: 'Conv_Roboto-Medium';
 }
 
 /*CAJA POP-UP*/
@@ -1411,7 +1413,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     box-shadow: 1px 2px 2px #1690b552;
 }
 #actividad .content .review .attemps span {
-    background-color: #1a73e9;
+    background-color: #1690b5;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
