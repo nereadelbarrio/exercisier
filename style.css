@@ -564,10 +564,15 @@ body.is_app .exercisier-navbar.ocultar {
 
 
 /*Énfasis */
-.bck-enfasis {
-    color: var(--colorppal);
+.bck-enfasis-1 {
+    olor: #333;
     font-weight: inherit;
+    background-color: #D1E0E7;
+    border: 1px solid #1690b5;
+    border-radius: 5px;
+    padding: 1px;
 }
+
 
 /* ---- CAJAS ---*/
 .bck-box {
@@ -1458,11 +1463,18 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 
 /**Iconos**/
 .item-container .icon:before {
-	vertical-align: top;
+	vertical-align: middle;
+    height: 25px;
+    width: 25px;
 }
 
-.item-container .icon-critical:before {
-	background-image: url(imagenes_difusion/critical_thinking_dark.png);
+.item-container .icon-estrella:before {
+MARGIN-TOP: -10px;
+    display: inline-block;
+    FONT-FAMILY: 'FontAwesome';
+    content: "\f005";
+    margin-right: 3px;
+    FONT-SIZE: 1.3REM;
 }
 
 
