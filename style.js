@@ -20,8 +20,9 @@
 				{ name: 'Title 4 Context', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
 				{ name: 'Title 5 Fremdtexte', element: 'h3', attributes: { 'class': 'bck-title bck-title-5'} },
 
-				{ name: 'Emphasis Main Color', element: 'span', attributes: { 'class': 'bck-enfasis'} },
+				{ name: 'Enfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 
+				{ name: 'Icono Estrella', element: 'span', attributes: { 'class': 'icon icon-estrella' } },
 
 				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
 				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
