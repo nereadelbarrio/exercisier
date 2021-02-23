@@ -1106,9 +1106,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 .slide_main input:focus,
  .slide_main .form-control:focus {
-    -webkit-box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px #00BDFF;
-    -moz-box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px #00BDFF;
-    box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px #00BDFF;
+	box-shadow: none;
     border-color: #00BDFF;
 }
 .fillblanks-draggable .drag-over {
