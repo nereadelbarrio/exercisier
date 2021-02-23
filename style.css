@@ -1266,17 +1266,16 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 
 #actividad .markwords-word:hover {
-    -moz-box-shadow: 0 4px 7px #1a73e95e;
-    -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
-    border: 1px solid #1a73e95e;
-    padding: 0 5px;
+box-shadow: none;
+    border: 2px solid #2496b982;
+    padding: 0px 5px;
+    border-radius: 5px;
 }
 
 #actividad .markword-active {
-    border-radius: 0px !important;
+	border-radius: 5px !important;
     padding: 0 5px !important;
-    border: 2px solid #1A73E9 !important;
+    border: 2px solid #1690b5 !important;
 }
 
 /*Señalar palabras*/
@@ -1447,7 +1446,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .btn-solution:hover,
 .open .dropdown-toggle.btn-solution {
     color: #fff;
-    background-color: #1690b5;
+    background-color: #00bdff;
     border-color: transparent;
 }
 
