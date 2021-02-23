@@ -1295,29 +1295,31 @@ box-shadow: none;
     border-color: #1A73E9;
 }
 #actividad .workspace.chooseblanks .inline-answer a {
-    margin: -7px 2px 2px 2px;
+	margin: -7px 2px 13px 2px;
     background-color: #FFF;
     -moz-box-shadow: 1px 3px 4px #00000021;
     -webkit-box-shadow: 1px 3px 4px #00000021;
     box-shadow: 1px 3px 4px #00000021;
-	border: 1px solid #00000021;
-	font-weight: normal !important;
+    border: 2px solid #1690b56e;
+    font-weight: normal !important;
 }
 #actividad .workspace.chooseblanks .inline-answer a:hover {
-    background-color: #FFF;
-    color: #1A73E9;
+    color: #1690b5;
     -moz-box-shadow: 0 4px 7px #1a73e95e;
     -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
-    border-color: #1A73E9;
+    box-shadow: 0 4px 7px #e7e7e759;
+    border-color: #1690b5;
 }
+
+
 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #FFF;
     border-bottom: 2px solid;
 }
 #actividad a, body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
-    color: #1a73e9;
+    color: #414141;
     background-color: transparent;
+    border-radius: 7px;
 }
 /*tipo test*/
 #actividad .workspace.test .checkbox-option label.filter-label,
