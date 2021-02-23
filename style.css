@@ -1431,9 +1431,9 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .btn-solution,
 .btn-solution.disabled,
 .btn-solution[disabled] {
-    color: #00bdff;
-    background-color: #fff;
-    border: 2px solid #00bdff;
+	color: #1690b5;
+    background-color: #DDE8ED;
+    border: 2px solid #1690b5;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
@@ -1447,7 +1447,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .btn-solution:hover,
 .open .dropdown-toggle.btn-solution {
     color: #fff;
-    background-color: #00bdff;
+    background-color: #1690b5;
     border-color: transparent;
 }
 
