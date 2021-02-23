@@ -1299,19 +1299,19 @@ box-shadow: none;
 
 /*Señalar palabras*/
 #actividad .workspace.chooseblanks select {
-    border-bottom: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
     -moz-box-shadow: 1px 3px 4px #00000021;
     -webkit-box-shadow: 1px 3px 4px #00000021;
     box-shadow: 1px 3px 4px #00000021;
-    border: 1px solid #00000021;
-    color: #1A73E9;
+    color: #414141;
     padding: 4px 7px;
+    border-radius: 7px;
 }
 #actividad .workspace.chooseblanks select:hover {
-    -moz-box-shadow: 0 4px 7px #1a73e95e;
-    -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
-    border-color: #1A73E9;
+    -moz-box-shadow: 0 4px 7px #007da43d;
+    -webkit-box-shadow: 0 4px 7px #007da43d;
+    box-shadow: 0 4px 7px #007da43d;
+    border-color: #007da4;
 }
 #actividad .workspace.chooseblanks .inline-answer a {
 	margin: -7px 2px 13px 2px;
