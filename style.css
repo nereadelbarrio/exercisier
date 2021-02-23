@@ -781,8 +781,7 @@ body:not(.edit) .back .bck-flipbox-title,
 	content: "";
 	height: 6px;
 	width: 6px;
-	background-color: #999999;
-	color: #999999;
+	background-color: #2496b9;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
