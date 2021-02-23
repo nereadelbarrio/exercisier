@@ -1470,7 +1470,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     FONT-SIZE: 1.3REM;
     color: #1690b5;
     margin-top: -6px;
-        height: 25PX;
+    height: 25PX;
     width: 12PX;
 }
 
@@ -1482,7 +1482,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     vertical-align: middle;
     height: 30px;
     width: 33px;
-    margin-right: 3px;
+    margin-right: 11px;
 }
 
 /**TABLA**/
