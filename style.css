@@ -123,6 +123,21 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     padding: 5px;
 }
 
+#indice .units ul li.disabled, 
+#indice .units ul li.locked {
+    opacity: .5;
+    background: #1690b5;
+}
+
+#indice .units ul li.disabled a .title:hover, 
+#indice .units ul li.locked a .title:hover {
+    color: #1690b5;
+}
+
+body:not(.isTablet) #indice .units ul li:hover, 
+#indice .units ul li:focus, #indice .units ul li.active {
+    background: #fff;
+}
 /**/
 
 
