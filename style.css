@@ -168,19 +168,21 @@ body:not(.isTablet) #indice .units ul li:hover,
 }
 
 #indice .unit-content .header.default{
-	background-image: url(../themes/responsive/images/libro/verde.png);
+	background-image: url(images/portadilla.png);
 }
 
+
 #indice .unit-content .header .title {
-    color: #1690b5;
-    background: transparent;
+	color: #eee;
     float: left;
-    font-size: 28px;
+    padding: 3px 20px 35px 20px;
+    border-radius: 0px 7px 7px 0px;
+    background-color: #007ca2;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 34px;
-    padding: 5px 20px;
-    height: 88px;
-    margin: 5px 140px 20px 8px;
+    height: 32px;
+    line-height: 31px;
+    margin: 20px 20px 20px 0px;
     overflow: hidden;
     z-index: 1;
     display: block;
