@@ -347,7 +347,29 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 		 -o-background-size: contain;
 			background-size: contain;
 	background-position: center center;
+}
 
+.libro-left ul li .title{
+	color: #fff;
+    font-size: 1.9rem;
+}
+
+.body_clase .navbar.libro .libro-left {
+    background: #1690b5 !important;
+}
+
+.navbar.libro{
+	background-color: #1690b5;
+}
+
+.libro-right ul li.close-back-wrapper:before, 
+.navbar-divider:before{
+	background-color: #1690b5;
+}
+
+.libro-right,
+.libro-left{
+	background-color: #1690b5;
 }
 
 /*video*/
