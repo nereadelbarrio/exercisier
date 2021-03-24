@@ -315,9 +315,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     box-shadow: rgb(0 0 0 / 30%) 0px 0 9px;
 }
 
-
-
-.content_type_curso_exercisier   .libro-left ul li .title:before {
+.content_type_curso_exercisier .libro-left ul li .title:before {
 	content: "";
 	background-size: contain;
 	top: 3px;
@@ -331,7 +329,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	opacity: 1;
 }
 
-.content_type_curso_exercisier.content_type_clase_exercisier   .libro-left ul li .title:before { 
+.content_type_curso_exercisier.content_type_clase_exercisier .libro-left ul li .title:before { 
 	opacity: 0;
 }
 .navbar-content .logo-publisher {
@@ -359,11 +357,16 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 }
 
 .navbar.libro{
-	background-color: #1690b5;
+	background-color: #1690b5 !important;
 }
 
 .libro-right ul li.close-back-wrapper:before, 
 .navbar-divider:before{
+	background-color: #1690b5;
+}
+
+.libro-right ul li.close-back-wrapper:after, 
+.navbar-divider:after{
 	background-color: #1690b5;
 }
 
