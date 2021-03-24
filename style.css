@@ -305,12 +305,23 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     position: relative;
 }
 /*logo*/
+.content_type_curso_exercisier .publisher-navbar{
+	position: fixed;
+    top: 44px;
+    background: #d8ecf3;
+    width: 100%;
+    left: 0;
+    height: 58px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0 9px;
+}
+
+
 
 .content_type_curso_exercisier   .libro-left ul li .title:before {
 	content: "";
 	background-size: contain;
 	top: 3px;
-	background-image: url(imagenes_difusion/thespanishhub_logo.png) !important;
+	background-image: url(images/logo_pug_santillana.png) !important;
 	position: fixed;
 	width: 80px;
 	height: 40px;
@@ -330,7 +341,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	left: 0;
 	width: 100px;
 	height: 44px;
-	background: url(imagenes_difusion/thespanishhub_logo.png) 0 0 no-repeat;
+	background: url(images/logo_pug_santillana.png) 0 0 no-repeat;
 	-webkit-background-size: contain;
 	   -moz-background-size: contain;
 		 -o-background-size: contain;
