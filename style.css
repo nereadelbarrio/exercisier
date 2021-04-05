@@ -321,10 +321,10 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     top: 8px;
     background-image: url(images/logo_pug_santillana.png) !important;
     position: fixed;
-    width: 99px;
-    height: 30px;
+    width: 69px;
+    height: 21px;
     background-repeat: no-repeat;
-    left: 50%;
+    left: 66%;
     margin-left: -40px;
     opacity: 1;
 }
