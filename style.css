@@ -318,7 +318,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 .content_type_curso_exercisier .libro-left ul li .title:before {
 	content: "";
     background-size: contain;
-    top: 8px;
+    top: 13px;
     background-image: url(images/logo_pug_santillana.png) !important;
     position: fixed;
     width: 69px;
