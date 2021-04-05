@@ -357,6 +357,18 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	background-color: #1690b5;
 }
 
+.exercisier-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    background: #1690b5;
+    border-bottom: 0;
+    border-top: 4px solid #1690b5;
+}
+
 /*video*/
 .vjs-poster {
 	background-color: #fff;
