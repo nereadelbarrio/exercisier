@@ -372,8 +372,8 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 .navbar-content .logo-publisher {
     display: inline-block;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -5px;
+    left: 17px;
     width: 100px;
     height: 44px;
     background: url(images/logo_pug_santillana.png) 0 0 no-repeat;
