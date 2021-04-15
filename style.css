@@ -369,6 +369,21 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     border-top: 4px solid #1690b5;
 }
 
+.navbar-content .logo-publisher {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 44px;
+    background: url(images/logo_pug_santillana.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+}
+
 /*video*/
 .vjs-poster {
 	background-color: #fff;
